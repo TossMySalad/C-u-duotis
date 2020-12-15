@@ -3,18 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicFuzzer", "BasicFuzzer\BasicFuzzer.csproj", "{21B2FC28-FCC4-41EA-8D5A-76CFDFE7A3E6}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PostFuzzer", "PostFuzzer\PostFuzzer.csproj", "{D9F8E00C-07C0-4D2D-9126-26B7E5570336}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSONfuzzer", "JSONfuzzer\JSONfuzzer.csproj", "{4A4EAD28-7DDC-44CB-898B-26300B4562D9}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BadstoreSqlExploit", "BadstoreSqlExploit\BadstoreSqlExploit.csproj", "{0F5E0AAE-B5F7-4006-8264-FEA1FD2C1FB2}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SOAPfuzzing", "SOAPfuzzing\SOAPfuzzing.csproj", "{788C9919-6CAA-4256-A45D-C184B896783F}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sqlmapauto", "sqlmap\sqlmapauto.csproj", "{A32A90BB-16B4-4656-A1C8-CA03D13B11B0}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sqlmapautoGUI", "sqlmapautoGUI\sqlmapautoGUI.csproj", "{5552D767-0E97-466C-91EB-33032C58177F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sqlmapautoLIB", "sqlmapautoLIB\sqlmapautoLIB.csproj", "{B6C76DF9-F4FC-4998-A068-66D9C0AC5632}"
@@ -27,30 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{21B2FC28-FCC4-41EA-8D5A-76CFDFE7A3E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{21B2FC28-FCC4-41EA-8D5A-76CFDFE7A3E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{21B2FC28-FCC4-41EA-8D5A-76CFDFE7A3E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{21B2FC28-FCC4-41EA-8D5A-76CFDFE7A3E6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D9F8E00C-07C0-4D2D-9126-26B7E5570336}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D9F8E00C-07C0-4D2D-9126-26B7E5570336}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D9F8E00C-07C0-4D2D-9126-26B7E5570336}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D9F8E00C-07C0-4D2D-9126-26B7E5570336}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4A4EAD28-7DDC-44CB-898B-26300B4562D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4A4EAD28-7DDC-44CB-898B-26300B4562D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4A4EAD28-7DDC-44CB-898B-26300B4562D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4A4EAD28-7DDC-44CB-898B-26300B4562D9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0F5E0AAE-B5F7-4006-8264-FEA1FD2C1FB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0F5E0AAE-B5F7-4006-8264-FEA1FD2C1FB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0F5E0AAE-B5F7-4006-8264-FEA1FD2C1FB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0F5E0AAE-B5F7-4006-8264-FEA1FD2C1FB2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{788C9919-6CAA-4256-A45D-C184B896783F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{788C9919-6CAA-4256-A45D-C184B896783F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{788C9919-6CAA-4256-A45D-C184B896783F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{788C9919-6CAA-4256-A45D-C184B896783F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A32A90BB-16B4-4656-A1C8-CA03D13B11B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A32A90BB-16B4-4656-A1C8-CA03D13B11B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A32A90BB-16B4-4656-A1C8-CA03D13B11B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A32A90BB-16B4-4656-A1C8-CA03D13B11B0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5552D767-0E97-466C-91EB-33032C58177F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5552D767-0E97-466C-91EB-33032C58177F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5552D767-0E97-466C-91EB-33032C58177F}.Release|Any CPU.ActiveCfg = Release|Any CPU
